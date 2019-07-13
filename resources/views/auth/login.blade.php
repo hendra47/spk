@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SMK PGRI</title>
+    <title>Penilaian - SAW</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -36,7 +36,7 @@
     <div class="login-logo">
         <a href="{{ url('/home') }}">
             <p style="color: white;">Sistem informasi penunjang keputusan</p>
-            <b style="color: #4286f4;">SMK PGRI</b>
+            <b style="color: #4286f4;">SAW</b>
         </a>
     </div>
 

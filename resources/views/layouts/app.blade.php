@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>SMK PGRI</title>
+    <title>Penilaian - SAW</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
 
         <!-- Logo -->
         <a href="{!! url('/home') !!}" class="logo">
-            <b>SMK PGRI</b>
+            <b>SAW</b>
         </a>
 
         <!-- Header Navbar -->
