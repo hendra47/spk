@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Penilaian - SAW</title>
+    <title>Daar El Gusti</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
 
         <!-- Logo -->
         <a href="{!! url('/home') !!}" class="logo">
-            <b>SAW</b>
+            <b>Daar El Gusti</b>
         </a>
 
         <!-- Header Navbar -->
@@ -53,7 +53,7 @@
                                      class="img-circle" alt="User Image"/>
                                 <p>
                                     {!! Auth::user()->name !!}
-                                    <small>Member since {!! Auth::user()->created_at->format('M. Y') !!}</small>
+                                    <!-- <small>Member since {!! Auth::user()->created_at->format('M. Y') !!}</small> -->
                                 </p>
                             </li>
                             <!-- Menu Footer-->
@@ -88,7 +88,7 @@
 
     <!-- Main Footer -->
     <footer class="main-footer" style="max-height: 100px;text-align: center">
-        <strong>Copyright © 2017 <a href="#" >SMK PGRI</a>.</strong> All rights reserved.
+        <strong>Copyright © 2017 <a href="#" >Daar El Gusti</a>.</strong> All rights reserved.
     </footer>
 
 </div>
