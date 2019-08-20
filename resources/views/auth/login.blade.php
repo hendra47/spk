@@ -43,7 +43,9 @@
     <!-- /.login-logo -->
     <div class="login-box-body">
         <p class="login-box-msg">Login</p>
-
+        <div style="display:flex;justify-content:center;margin-bottom:10px;">
+    <img src="{{ URL::asset('/img/logo.png') }}" style="text-align:center;width:120px;border-radius:10px;"/>
+        </div>
         <form method="post" action="{{ url('/login') }}">
             {!! csrf_field() !!}
 
